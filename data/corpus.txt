@@ -1,0 +1,9 @@
+Payment PAYMENT-000000 of ₹2700 from account XXXXXXXX3939 was processed on 2025-07-28 with Single validation.
+First validation completed on 20250726 with outcome: PASSED.
+Q1: Is Dual validation applied when the payment amount is above ₹5000?
+Q2: Did all applicable validations passed for this payment?
+Payment PAYMENT-000001 of ₹8888 from account XXXXXXXX1177 was processed on 2025-06-14 with Dual validation.
+First validation completed on 20250609 with outcome: PASSED.
+Second validation completed on 20250608 with outcome: PASSED.
+Q1: Is Dual validation applied when the payment amount is above ₹5000?
+Q2: Did all applicable validations passed for this payment?

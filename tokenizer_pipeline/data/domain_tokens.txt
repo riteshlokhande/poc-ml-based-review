@@ -1,0 +1,12 @@
+PAYMENT-000996
+₹10000
+txn_id_ABC123
+manual_review
+PASSED
+account XXXXXXXX5970
+Validation
+Single
+Dual
+FAILED
+First
+Second

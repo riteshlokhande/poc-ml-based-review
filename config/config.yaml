@@ -1,0 +1,29 @@
+# config.yaml
+
+paths:
+  prompts: "data/input_prompts.csv"
+  span_path: "data/entity_spans.jsonl"
+  tokenizer_dir: "tokenizer/"
+  ner_output: "data/ner_output_dynamic.csv"
+  sentiment_output: "data/sentiment_output.csv"
+  composite_output: "data/composite_predictions.csv"
+  final_output: "data/model_predictions.csv"
+
+tokenizers:
+  base: "roberta-base"
+  custom: "tokenizer/tokenizer.json"
+  custom_hf: "custom-tokenizer-v2"
+
+models:
+  ner_model: "models/ner_model.pt"
+  sentiment_model: "models/sentiment_model.pt"
+  contrastive_model: "models/contrastive_model.pt"
+
+thresholds:
+  drift_score: 0.90
+  fragmentation_alert: 2.5
+
+flags:
+  log_entity_mismatches: true
+  log_prediction_reversals: true
+  enable_dashboard: true

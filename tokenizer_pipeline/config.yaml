@@ -1,0 +1,12 @@
+tokenizer_type: "BertWordPieceTokenizer"
+vocab_size: 30000
+lowercase: false
+special_tokens:
+  - "[PAD]"
+  - "[UNK]"
+  - "[CLS]"
+  - "[SEP]"
+  - "[MASK]"
+domain_tokens_path: "data/domain_tokens.txt"
+data_path: "data/corpus.txt"
+output_dir: "output/tokenizer"
